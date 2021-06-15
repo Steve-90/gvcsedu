@@ -16,9 +16,10 @@
 1.GENERAL
 =============================================== */
 body{
-	overflow-x: hidden;
-	overflow-y: auto;
+    background-color: black;
+    
     font-family: 'Roboto', sans-serif;
+
 }
 .margin-t-50{
     margin-top: 50px;
@@ -66,14 +67,39 @@ body{
 /* -----------------------------------------------------------------------
    2. HOME / Countdown styles
 ------------------------------------------------------------------------- */
-.logo{
-    padding-bottom: 5%;
-}
+.logo img{
+    height: 150px;
+    width: 150px;}
 .logo p{
     color: #ffffff;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-style: italic;
 }
+
+.logo{
+    margin-bottom: 100px;
+
+}
+
+.features-box p{
+    padding-top: 0px;
+    color: white;
+
+}
+
+#hey{
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+#call{
+    color: white;
+
+}
+
+
 #home .large-header {
 	background-image: url("../images/pattern.png"),url('../images/img-1.jpg');
 	background-position: center;
